@@ -77,3 +77,8 @@ Tips for Using Melobot Effectively
 2. Reframe for Clarity: If you don't receive suitable songs for a particular situation, try reframing your sentence using simpler words to help Melobot understand your request better.
 
 3. Use Descriptive Keywords: Incorporate key words like "happy," "depressed," "excited," "romantic," "love," "break up," "wedding," "festive," etc., to enhance the accuracy of the song recommendations.
+
+
+🚀Note 🚀
+
+The source code for Melobot is stored in a private repository. If you are interested in accessing the code, please contact me for access.
