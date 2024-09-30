@@ -7,11 +7,11 @@ import spacy
 from textblob import TextBlob
 
 # Load Spotify API credentials from environment variables
-client_id = os.getenv('SPOTIPY_CLIENT_ID')
-client_secret = os.getenv('SPOTIPY_CLIENT_SECRET')
+client_id = st.secrets["general"]["SPOTIPY_CLIENT_ID"]
+client_secret = st.secrets["general"]["SPOTIPY_CLIENT_SECRET"]
 
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
-sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager, requests_timeout=20)
+sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 # Load spaCy model
 nlp = spacy.load('en_core_web_sm')
